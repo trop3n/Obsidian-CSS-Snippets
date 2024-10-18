@@ -1,0 +1,24 @@
+/* Bold text gradient */
+strong {
+  background: linear-gradient(45deg, ##03c2fc, #035efc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* Italicized text gradient */
+em {
+  background: linear-gradient(45deg, #ff8d4d, #ffb84d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+}
+
+/* Bold and italicized text gradient */
+strong em, em strong {
+  background: linear-gradient(45deg, #ff9ff3, #1dd1a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-style: italic;
+}
